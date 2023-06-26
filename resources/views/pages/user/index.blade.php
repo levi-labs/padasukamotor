@@ -52,7 +52,7 @@
                                                 href="{{ url('edit-user/' . $dt->id) }}">Edit</a>
                                             <a class="btn btn-danger btn-sm" href="{{ url('delete-user/' . $dt->id) }}"
                                                 onclick="return confirm('Are you sure you want to delete this item?');">Hapus</a>
-                                            <a class="btn btn-info btn-sm " href="{{ url('reset-user/' . $dt->id) }}"
+                                            <a class="btn btn-info btn-sm " href="{{ url('reset-password/' . $dt->id) }}"
                                                 onclick="return confirm('Are you sure you want to Reset Password this item?');">Reset
                                                 Password</a>
                                         </td>

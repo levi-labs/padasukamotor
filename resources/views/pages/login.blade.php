@@ -76,7 +76,7 @@
                                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                                                 <input type="text" name="username" class="form-control"
                                                     id="yourUsername" required>
-                                                <div class="invalid-feedback">Please enter your username.</div>
+                                                <div class="invalid-feedback">Please enter your username..</div>
                                                 @error('username')
                                                     <span class="invalid-feedback" role="alert">
                                                         <strong>{{ $message }}</strong>

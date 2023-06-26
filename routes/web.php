@@ -94,7 +94,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('edit-user/{user}', [UserController::class, 'edit']);
     Route::post('update-user/{user}', [UserController::class, 'update']);
     Route::get('delete-user/{user}', [UserController::class, 'destroy']);
-    Route::get('reset-password/{user}', [UserController::class, 'destroy']);
+    Route::get('reset-password/{user}', [UserController::class, 'resetPassword']);
 
     Route::get('report', [DashboardController::class, 'report']);
     Route::post('post-report', [DashboardController::class, 'report']);

@@ -80,7 +80,7 @@ class CartController extends Controller
 
             if ($defaultValue < $item->stock) {
                 $temp = $defaultValue;
-                if ($cek->count() > 0) {
+                if ($cek != null) {
                     $cart->invoice = $cek->invoice;
                 } else {
                     $cart->invoice = $request->invoice;
