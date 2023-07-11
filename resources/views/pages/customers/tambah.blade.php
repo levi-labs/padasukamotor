@@ -37,7 +37,7 @@
                             @csrf
 
                             <div class="row mb-3">
-                                <label for="inputText" class="col-sm-2 col-form-label">Nama Barang</label>
+                                <label for="inputText" class="col-sm-2 col-form-label">Nama Customer</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" name="nama_customer">
                                 </div>

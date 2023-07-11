@@ -83,7 +83,7 @@ class CartController extends Controller
                 if ($cek != null) {
                     $cart->invoice = $cek->invoice;
                 } else {
-                    $cart->invoice = $request->invoice;
+                    $cart->invoice = $cart->getInvoice();
                 }
                 $cart->customer_id = $customerid;
                 $cart->barang_id   = $id;

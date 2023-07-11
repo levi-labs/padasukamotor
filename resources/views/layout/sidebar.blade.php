@@ -89,23 +89,23 @@
                      <span>User Management</span>
                  </a>
              </li><!-- End Contact Page Nav -->
-
-
              <li class="nav-item">
                  <a class="nav-link collapsed" href="{{ url('report') }}">
                      <i class="bi bi-dash-circle"></i>
                      <span>Report</span>
                  </a>
-             </li><!-- End Error 404 Page Nav -->
+             </li>
          @endif
 
-         <li class="nav-item">
-             <a class="nav-link collapsed" href="{{ url('logout') }}">
-                 <i class="bi bi-box-arrow-in-right"></i>
-                 <span>Logout</span>
-             </a>
-         </li><!-- End Login Page Nav -->
 
+         {{-- @if (auth()->user()->akses_user == 'Kasir')
+             <li class="nav-item">
+                 <a class="nav-link collapsed" href="{{ url('report') }}">
+                     <i class="bi bi-dash-circle"></i>
+                     <span>Report</span>
+                 </a>
+             </li>
+         @endif --}}
      </ul>
 
  </aside>

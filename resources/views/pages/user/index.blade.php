@@ -45,8 +45,6 @@
                                         <td>{{ $dt->email }}</td>
                                         <td>{{ $dt->no_hp }}</td>
                                         <td>{{ $dt->akses_user }}</td>
-
-
                                         <td class="text-sm">
                                             <a class="btn btn-warning btn-sm"
                                                 href="{{ url('edit-user/' . $dt->id) }}">Edit</a>
